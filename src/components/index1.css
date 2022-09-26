@@ -1,0 +1,58 @@
+.main-header {
+  text-shadow: 2px 2px 2px blue;
+}
+.body-1 {
+    text-align: center;
+  }
+  .line {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .btn-box {
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 30px;
+
+  }
+  
+  .bttn {
+    box-sizing: border-box;
+    border: 2px solid black;
+    cursor: pointer;
+    width: 300px;
+    height: 50px;
+    border-radius: 50px;
+    
+  }
+  .clsbtn {
+    background-color: blueviolet;
+    margin-left: 30px;
+  }
+  .funbtn {
+    background-color: wheat;
+    margin-right: 30px;
+  }
+  
+  .list{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 50vw 50vw;
+    margin-top: 30px;
+  }
+  
+  .functionComponent,
+  .classComponent {
+    border: 2px solid black;
+    border-radius: 20px;
+    text-align: center;
+    margin: 30px;
+    padding: 20px;
+  }
+  
+  .functionComponent {
+    background-color: crimson;
+  }
+  
+  .classComponent {
+    background-color: palevioletred;
+  }
